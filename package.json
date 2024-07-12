@@ -1,0 +1,19 @@
+{
+  "name": "api-players",
+  "version": "1.0.0",
+  "description": "Esta Api ha sido desarrollada con Node.js y documentada usando Swagger para gestionar los datos de \"jugadores\".",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "XamSav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
